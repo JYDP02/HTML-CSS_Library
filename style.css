@@ -4,6 +4,9 @@ body{
     font-family: 'Noto Sans TC', sans-serif;
 }
 
+:root{
+    --primary-color: #047857;
+}
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -14,6 +17,30 @@ body{
     margin: auto;
 }
 
-.container-fluid{
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
 
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    color: #047857;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+.list-nonbullet{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    margin: 0rem 0.5rem;
 }
